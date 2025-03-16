@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(180, 194, 206, 0.671);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Source Sans 3", serif;
+}
+
+#finalScore {
+    font-weight: 700;
+    color: #0dda0d;
+}
+
+#highScoresList {
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.high-score:hover {
+    transform: scale(1.075);
+    color: #0dda0d;
+    text-shadow: 0 0 6px white;
+    transition: all 0.4s;
+}
+
+.btn-fx {
+    background-color: #0dda0d;
+    color: white;
+    font-weight: 400;
+}
+
+.btn-fx:hover {
+    background-color: #0dda0d;
+    color: white;
+    font-weight: 500;
+}
+
+
+.n-buttons {
+    display: flex;
+    gap: 2rem;
+}

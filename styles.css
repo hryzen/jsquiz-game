@@ -1,0 +1,113 @@
+.nav-back {
+    background-color: #262afa;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.filter-blue {
+    filter: invert(56%) sepia(98%) saturate(2732%) hue-rotate(163deg) brightness(106%) contrast(104%)
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #00CCDD, #6439FF, #A3FFD6);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .main-name {
+    color: #00bfff;
+    text-shadow: 0 0 3px #00bfff;
+    font-weight: 500;
+  }
+
+  .main-name:hover {
+    color: #A3FFD6;
+  }
+  
+  .signup-color {
+    background-color: #00bfff;
+    color: white;
+    font-weight: 500;
+  }
+
+  .signup-color:hover {
+    background-color: #00CCDD;
+    color: white;
+    text-shadow: 0 0 3px white;
+  }
+
+  .hero-new {
+    padding: 200px 0;
+  }
+
+  .login-color {
+    background-color: #262afa;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+  }
+
+  .login-color:hover {
+    background-color: #6439FF;
+    color: white;
+    text-shadow: 0 0 3px white;
+  }
+
+  #page-txt {
+    font-family: "Source Sans 3", serif;
+    font-weight: 600;
+  } 
+
+  .start-btn {
+    background-color: #262afa;
+    color: white;
+    font-weight: 500;
+    padding: 7px;
+  }
+
+  .start-btn:hover {
+    background: linear-gradient(300deg, #00bfff, #A3FFD6, #F3FF90, #9BEC00);
+    color: white;
+    background-size: 100% 100%;
+    transition: all 0.5s cubic-bezier(0.000, 0.000, 0.230, 1);
+    text-shadow: 0 0 3px white;
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+  .filter-white {
+    filter: invert(0%) sepia(7%) saturate(0%) hue-rotate(291deg) brightness(100%) contrast(102%);
+  }
+
+  #foot-logo {
+    filter: 
+      drop-shadow(-1px -1px 0px white) 
+      drop-shadow(2px -1px 0px white) 
+      drop-shadow(1px 1px 0px white)
+      drop-shadow(-1px 2px 0px white)
+  }
+
+  .text-white:hover {
+    text-shadow: 0 0 3px white;
+    font-weight: 500;
+  }
+
+  .text-secondary:hover {
+    text-shadow: 0 0 3px #6c757d;
+    font-weight: 500;
+  }

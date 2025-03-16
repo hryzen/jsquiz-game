@@ -1,0 +1,108 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F8DE22, #F94C10, #C70039, #900C3F);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.nav-back {
+    background-color: #C70039;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.filter-orange {
+    filter: invert(37%) sepia(49%) saturate(3496%) hue-rotate(353deg) brightness(97%) contrast(101%)
+}
+
+.main-name {
+    color: #F94C10;
+    text-shadow: 0 0 3px #F8DE22;
+    font-weight: 500;
+  }
+
+  .main-name:hover {
+    color: #900C3F;
+    text-shadow: 0 0 2px #900C3F;
+  }
+  
+  .signup-color {
+    background-color: #900C3F;
+    color: #C70039;
+    font-weight: 500;
+  }
+
+  .signup-color:hover {
+    background-color: #900C3F;
+    color: #F94C10;
+    text-shadow: 0 0 3px #F94C10;
+  }
+
+  .hero-new {
+    padding: 200px 0;
+  }
+
+  .login-color {
+    background-color: #C70039;
+    border: 2px dashed #F8DE22;
+    color: #F8DE22;
+    font-weight: 500;
+  }
+
+  .login-color:hover {
+    background-color: #C70039;
+    color: #F8DE22;
+    text-shadow: 0 0 3px #F8DE22;
+    border: 2px solid #F8DE22;
+  }
+
+  .text-white:hover {
+    text-shadow: 0 0 3px white;
+    font-weight: 500;
+  }
+
+  .text-secondary:hover {
+    text-shadow: 0 0 3px #6c757d;
+    font-weight: 500;
+  }
+
+  .container {
+    max-width: 800px;
+    padding: 2rem;
+    background-color: rgba(15, 14, 14, 0.63);
+    border-radius: 5%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #page-txt {
+    font-family: "Source Sans 3", serif;
+    font-weight: 600;
+  } 
+
+  .start-btn {
+    background-color: #640fec;
+    color: white;
+    font-weight: 500;
+    padding: 7px;
+  }
+
+  .start-btn:hover {
+    background: linear-gradient(300deg, #940fec, #C70039, #F94C10, #F94C10, #F8DE22, #F94C10, #F94C10, #940fec);
+    color: black;
+    background-size: 100% 100%;
+    transition: all 0.5s cubic-bezier(0.000, 0.000, 0.230, 1);
+    text-shadow: 0 0 3px black;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  }
